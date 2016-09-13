@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+body{
+	background:#202020;
+}
+#box{
+	width:800px;
+	height:700px;
+	margin:auto;	
+}
+#logo{
+	margin-top:50px;
+	margin-left:200px;
+	width:388px;
+	height:89px;
+}
+#main{
+	width:800px;
+	height:500px;
+	margin:auto;
+	margin-top:60px;
+	margin-left:300px;
+}
+#card1{
+	width:150px;
+	height:530px;
+	z-index:3;
+	background:url(images/card_bg.jpg) repeat-y;
+	float:left;
+	position:absolute;
+	border:1px solid #666666;
+	border-radius:5px;
+}
+#card1:hover{
+	transform:scale(1.1,1.1) rotate(3deg);
+	transition:all 1s ease;
+	color:#999999;
+}
+#card1 h2{
+	padding-top:25px;
+	text-align:center;
+}
+#card1 ul{
+	width:130px;
+	height:300px;
+	list-style:none;
+	padding-left:10px;
+	}
+#card1 li{
+	padding-top:4px;
+	width:130px;
+	height:24px;
+	font-size:12px;
+}
+#pic1{
+	background:#EEEEEE;
+	width:130px;
+	height:130px;
+	margin:10px;
+	margin-top:5px;
+}
+#card2{
+	width:150px;
+	height:530px;
+	z-index:2;
+	background:url(images/card_bg.jpg) repeat-y;
+	position:absolute;
+	transform:rotate(-10deg);
+	transform-origin:bottom;
+	float:left;
+	border:1px solid #666666;
+	border-radius:5px;
+}
+#card2:hover{
+/*	transform:rotate(-50deg);*/
+	z-index:4;
+	transform:scale(1.1,1.1) rotate(-10deg);
+	transition:all 2s ease; 
+}
+#pic2{
+	background:#EEEEEE;
+	width:130px;
+	height:130px;
+	margin:10px;
+	margin-top:5px;
+}
+#card2 h2{
+	padding-top:25px;
+	text-align:center;
+	}
+#card2 ul{
+	width:130px;
+	height:300px;
+	list-style:none;
+	padding-left:10px;
+	}
+#card2 li{
+	padding-top:4px;
+	width:130px;
+	height:24px;
+	font-size:12px;
+	color:#666666;
+}
+#card3{
+	width:150px;
+	height:530px;
+	z-index:1;
+	background:url(images/card_bg.jpg) repeat-y;
+	position:absolute;
+	transform:rotate(-20deg);
+	float:left;
+	transform-origin: bottom;
+	border:1px solid #666666;
+	border-radius:5px;
+}
+#card3:hover{
+/*	transform:rotate(-50deg);*/
+	z-index:4;
+	transform:scale(1.1,1.1) rotate(-20deg);
+	transition:all 1s ease; 
+}
+#pic3{
+	background:#EEEEEE;
+	width:130px;
+	height:130px;
+	margin:10px;
+	margin-top:5px;
+}
+#card3 h2{
+	padding-top:25px;
+	text-align:center;
+	}
+#card3 ul{
+	width:130px;
+	height:300px;
+	list-style:none;
+	padding-left:10px;
+	}
+#card3 li{
+	padding-top:4px;
+	width:130px;
+	height:24px;
+	font-size:12px;
+	color:#666666;
+}
+#card4{
+	width:150px;
+	height:530px;
+	z-index:2;
+	background:url(images/card_bg.jpg) repeat-y;
+	position:absolute;
+	transform:rotate(10deg);
+	float:left;
+	transform-origin:bottom;
+	border:1px solid #666666;
+	border-radius:5px;
+}
+#card4:hover{
+/*	transform:rotate(-50deg);*/
+	z-index:4;
+	transform:scale(1.1,1.1) rotate(10deg);
+	transition:all 2s ease; 
+}
+#pic4{
+	background:#EEEEEE;
+	width:130px;
+	height:130px;
+	margin:10px;
+	margin-top:5px;
+}
+#card4 h2{
+	padding-top:25px;
+	text-align:center;
+	}
+#card4 ul{
+	width:130px;
+	height:300px;
+	list-style:none;
+	padding-left:10px;
+	}
+#card4 li{
+	padding-top:4px;
+	width:130px;
+	height:24px;
+	font-size:12px;
+	color:#666666;
+}
+#card5{
+	width:150px;
+	height:530px;
+	z-index:1;
+	background:url(images/card_bg.jpg) repeat-y;
+	position:absolute;
+	transform:rotate(20deg);
+	float:left;
+	transform-origin: bottom;
+	border:1px solid #666666;
+	border-radius:5px;
+}
+#card5:hover{
+/*	transform:rotate(-50deg);*/
+	z-index:5;
+	transform:scale(1.1,1.1) rotate(20deg);
+	transition:all 2s ease; 
+}
+#card5 h2{
+	padding-top:25px;
+	text-align:center;
+	}
+#pic5{
+	background:#EEEEEE;
+	width:130px;
+	height:130px;
+	margin:10px;
+	margin-top:5px;
+}
+#card5 ul{
+	width:130px;
+	height:300px;
+	list-style:none;
+	padding-left:10px;
+	}
+#card5 li{
+	padding-top:4px;
+	width:130px;
+	height:24px;
+	font-size:12px;
+	color:#666666;
+}

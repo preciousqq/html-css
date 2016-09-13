@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size:12px;
+	font-family:"宋体";
+	color:#000000;
+	background-image:url(../images/11122.jpg);
+	background-repeat:repeat-x;
+	}
+* {
+	border:0px;
+	margin:0px;
+	padding:0px;
+	}
